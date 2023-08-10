@@ -1,0 +1,27 @@
+public class MyClass {
+    public static void main(String args[]) {
+        public class Seguro {
+            private float Valor
+            private boolean Vigencia
+            
+            private Veiculo veiculo;
+            private Cliente proprietario;
+            private Cliente[] assegurado;
+        }
+
+        public class Cliente{
+            private String Nome, CPF;
+        }
+        public class Veiculo {
+            private int ano
+            private String Marca
+            private String Cor
+            private String placa
+            
+            private Modelo modelo;
+        }
+        public class Modelo{
+            private String Nome
+        }
+    }
+}
